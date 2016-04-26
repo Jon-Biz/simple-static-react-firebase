@@ -13,18 +13,10 @@ You get:
 - watchfile'd development builds
 
 That's it.
-This version doesn't have have a router - it just drops you straight into the page. If a simple, hash-based router would get you further along, use
-https://github.com/Jon-Biz/simple-static-react-router . What you do get:
-
-- ES6/React (with sourcemaps)
-- CSS modules
-- watchfile'd development builds
-
-That's it.
 
 ##Set up
 
-Clone the repo and install the node dependencies.
+Clone the `master` branch and run npm i.
 
 ```
 git clone https://github.com/Jon-Biz/simple-static-react-router
