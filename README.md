@@ -20,6 +20,7 @@ Clone the repo locally and run npm install.
 
 ```
 git clone https://github.com/Jon-Biz/simple-static-react-router
+cd simple-static-react-router
 npm i
 ```
 
