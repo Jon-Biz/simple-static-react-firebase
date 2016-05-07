@@ -4,10 +4,17 @@
   "description": "Minimal boilerplate and configuration for the development of static react & es6 sites with a hash based router",
   "repository": "https://github.com/Jon-Biz/simple-static-react-router",
   "scripts": {
+<<<<<<< HEAD
     "build": "webpack",
     "dev": "webpack-dev-server --progress --port 4000",
     "webpack": "node ./node_modules/webpack/bin/webpack.js",
     "webpack-dev-server": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+=======
+    "webpack":"node ./node_modules/webpack/bin/webpack.js",
+    "webpack-dev-server":"node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "npm run webpack",
+    "dev": "npm run webpack-dev-server -s -- --progress --colors --port 4000 --content-base public"
+>>>>>>> 68f388e... Localize webpack
   },
   "babel": {
     "presets": [
@@ -46,11 +53,16 @@
     "react-router": "^2.3.0",
 >>>>>>> 5e7ba70... update: add Router, extract HelloWorld component
     "style-loader": "^0.13.1",
+<<<<<<< HEAD
     "webpack": "^5.53.0",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.2.1"
   },
   "devDependencies": {
     "@webpack-cli/serve": "^1.5.2"
+=======
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+>>>>>>> 68f388e... Localize webpack
   }
 }
