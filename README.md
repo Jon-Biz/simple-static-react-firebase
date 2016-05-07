@@ -4,12 +4,16 @@ This repo is minimal boilerplate for static react & es6 site.
 
 It is intended for to get you up and developing with a minimum of fuss and configuration for your Firebase, Github, or plain old web server, or as the front-end for the Wordpress API.
 
+This version doesn't have have a router - it just drops you straight into the page. If a simple, hash-based router would get you further along, use
+https://github.com/Jon-Biz/simple-static-react-router .
+
 ##Set up
 
-Clone the `master` branch and run npm i.
+Clone the repo and install the node dependencies.
 
 ```
-git clone https://github.com/Jon-Biz/simple-static-react --single-branch
+git clone https://github.com/Jon-Biz/simple-static-react
+cd simple-static-react
 npm i
 ```
 
