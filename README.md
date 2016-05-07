@@ -28,6 +28,7 @@ Clone the repo and install the node dependencies.
 
 ```
 git clone https://github.com/Jon-Biz/simple-static-react-router
+cd simple-static-react-router
 npm i
 ```
 
