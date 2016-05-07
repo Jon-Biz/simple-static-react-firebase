@@ -1,8 +1,8 @@
 {
-  "name": "Simple-Static-React",
-  "version": "1.1.1",
-  "description": "Minimal boilerplate and configuration for the development of static react & es6 sites",
-  "repository": "https://github.com/Jon-Biz/simple-static-react",
+  "name": "Simple-Static-React-Router",
+  "version": "1.0.1",
+  "description": "Minimal boilerplate and configuration for the development of static react & es6 sites with a hash based router",
+  "repository": "https://github.com/Jon-Biz/simple-static-react-router",
   "scripts": {
     "webpack": "node ./node_modules/webpack/bin/webpack.js",
     "webpack-dev-server": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
