@@ -1,6 +1,6 @@
 #Simple Static React Router
 
-This repo is minimal boilerplate for static react & es6 site with a basic router. If you don't need a router, check out Simple Static React.
+This repo is minimal boilerplate for static react & es6 site with a basic router. If you don't need a router, check out Simple Static React - https://github.com/jon-biz/simple-static-react
 
 The intention is to provide a basic boilerplate setup that doesnt inundate the new user with complexity, and stays out of the way of the more comfortable who just want an ES6/React environment to bang out an idea.
 
@@ -19,7 +19,7 @@ That's it.
 Clone the repo locally and run npm install.
 
 ```
-git clone https://github.com/Jon-Biz/simple-static-react
+git clone https://github.com/Jon-Biz/simple-static-react-router
 npm i
 ```
 
