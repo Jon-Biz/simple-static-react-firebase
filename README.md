@@ -5,7 +5,13 @@ This repo is minimal boilerplate for static react & es6 site.
 It is intended for to get you up and developing with a minimum of fuss and configuration for your Firebase, Github, or plain old web server, or as the front-end for the Wordpress API.
 
 This version doesn't have have a router - it just drops you straight into the page. If a simple, hash-based router would get you further along, use
-https://github.com/Jon-Biz/simple-static-react-router .
+https://github.com/Jon-Biz/simple-static-react-router . What you do get:
+
+- ES6/React (with sourcemaps)
+- CSS modules
+- watchfile'd development builds
+
+That's it.
 
 ##Set up
 
