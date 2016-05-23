@@ -1,11 +1,11 @@
 {
   "name": "Simple-Static-React",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Minimal boilerplate and configuration for the development of static react & es6 sites",
   "repository": "https://github.com/Jon-Biz/simple-static-react",
   "scripts": {
-    "webpack":"node ./node_modules/webpack/bin/webpack.js",
-    "webpack-dev-server":"node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "webpack": "node ./node_modules/webpack/bin/webpack.js",
+    "webpack-dev-server": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "npm run webpack",
     "dev": "npm run webpack-dev-server -s -- --progress --colors --port 4000 --content-base public"
   },
@@ -25,8 +25,8 @@
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1"
