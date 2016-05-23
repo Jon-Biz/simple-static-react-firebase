@@ -2,7 +2,7 @@
 
 This repo is minimal boilerplate for static react & es6 site.
 
-It is intended for to get you up and developing with a minimum of fuss and configuration for your Firebase, Github, or plain old web server, or as the front-end for the Wordpress API.
+The intention is to provide a basic boilerplate setup that doesnt inundate the new user with complexity, and stays out of the way of the more comfortable who just want an ES6/React environment to bang out an idea. It's ready to set up on your plain old web server, or your Firebase or Github site, or for building the front-end for your Wordpress API, with a minimum of fuss and configuration.
 
 This version doesn't have have a router - it just drops you straight into the page. If a simple, hash-based router would get you further along, use
 https://github.com/Jon-Biz/simple-static-react-router . What you do get:
