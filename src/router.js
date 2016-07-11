@@ -6,7 +6,6 @@ import HelloAgainworld from './containers/helloAgainWorld.js'
 class Router extends Component {
   render() {
     const hash = this.props.location[0]
-
 // Put your routes in this switch statement.
     switch (hash)  {
       case '':
