@@ -41,7 +41,7 @@ const config = {
 };
 ```
 
-Configure whichever login providers you want to use, and remove the remaining references in `public/auth.js`:
+Configure whichever login providers you want to use, and remove the remaining references in `public/auth.html`:
 
 ```
   // Leave the lines as is for the providers you want to offer your users.
