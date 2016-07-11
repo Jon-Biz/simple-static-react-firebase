@@ -123,16 +123,16 @@ _Note: As is, this uses a traditional 'top down' React style data management - i
 
   * contains the route containers
 
-`/src/containers/helloWorld.js`
+`/src/containers/HelloWorld.js`
   * Hello World page
 
-`/src/containers/helloAgainWorld.js`
+`/src/containers/HelloAgainWorld.js`
   * Hello Again, World page
 
 `/src/containers/helloWorld.css`
 `/src/containers/helloAgainWorld.css`
   * css stylesheets
 
-`/pubic/`
+`/public/`
   * output directory. Put your assets in here next to the compiled js and css.
 ```
