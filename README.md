@@ -21,8 +21,8 @@ Now, this isn't as simple as I'd like, but federated authentication and wiring u
 Clone the repo locally and run npm install.
 
 ```
-git clone https://github.com/Jon-Biz/simple-static-react-router
-cd simple-static-react-router
+git clone https://github.com/Jon-Biz/simple-static-react-firebase
+cd simple-static-react-firebase
 npm i
 ```
 
