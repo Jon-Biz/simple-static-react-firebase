@@ -1,35 +1,40 @@
 import "babel-polyfill"
 import React, {Component} from 'react'
 import ReactDom from 'react-dom'
+const firebase = window.firebase
 
 import Data from './data.js'
-
 import Router from './router.js'
 
-/*
-  Call this function every time the data payload changes.
+const LoggedOut = () => {
+  const signOut = () => firebase.auth().signOut()
 
-  Or, if your site is truly static, just pass in the data you want to display.
-  Or, if you don't need to render data, ask yourself why you are using a framework,
-    and then delete the import statment above and the reference to it in the react
-    component render below.
-*/
-const onDataChange = (data) => {
-  console.log('on data change')
-  console.log(data)
+  return (
+    <div>
+      <h1>Hello World</h1>
+      <a href="auth.html">
+        Go to the auth page.
+      </a>
+      <span onClick={signOut}>
+          Sign out
+        </span>
 
+
+    </div>
+  )
+}
+
+const onRouteChange = (user) => {
   // Splits location into `/` separated parts,
   const location = window.location.hash.replace(/^#\/?|\/$/g, '').split('/');
   // Gets the DOM Element to render to
   const content = document.getElementById('app')
   // Renders with the location and the data
-  const user = datum.user
-  if(Boolean(user)) ReactDom.render(<Router {...data} user={user} location={location}/>, content)
-  else ReactDom.render(<Router {...data} user={user} location={location}/>, content)
+  if (user) ReactDom.render(<Router data={data} user={user} location={location}/>, content)
+  else ReactDom.render(<LoggedOut />, content)
 }
 
-const datum = new Data(onDataChange)
+const data = new Data(onRouteChange)
+window.addEventListener('hashchange', onRouteChange, false);
 
-window.addEventListener('hashchange', onDataChange, false);
-
-onDataChange()
+onRouteChange()

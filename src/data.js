@@ -10,30 +10,29 @@ const config = {
 
 firebase.initializeApp(config);
 
-function setupDataListener(user, database, callback, data) {
-  console.log('setting up data listener')
-  data.dataRef = database.ref(`data/${user.uid}`)
-  data.dataRef.on('value', (snapshot) => {
-    console.log(snapshot.val())
-    callback(snapshot.val())
-  }, (errorObject) => {
-    console.log('The read failed: ' + errorObject.code);
-  })
-}
-
-function Data(callback) {
+function Data(authcb) {
   const database = firebase.database()
 
+  this.getRef = ({fbref, parentRef}) => {
+    if (parentRef) return `${parentRef}/${fbref}`
+    else return `data/${this.user.uid}/${fbref}`
+  }
+
+  this.setListener = ({ref, callback}) => {
+    firebase.database().ref(ref).on('value', (snapshot) =>{
+      const data = snapshot.val()
+      callback(data)
+    })
+
+    const cancelListener = () => firebase.database().ref(ref).off()
+    return cancelListener
+  }
+
   const updateData = (user) => {
-    if (user) {
-      this.user = user
-      console.log(this)
-      setupDataListener(user, database, callback, this)
-    } else {
-      this.user = null
-      this.dataRef.off()
-      callback({})
-    }
+    'auth changed'
+    if (user) this.user = user
+    else this.user = null
+    authcb(user)
   }
 
   const handleError = (error) => console.log(error)
@@ -44,3 +43,4 @@ function Data(callback) {
 }
 
 export default Data
+
