@@ -1,6 +1,6 @@
 {
   "name": "Simple-Static-React-Router",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Minimal boilerplate and configuration for the development of static react & es6 sites with a hash based router",
   "repository": "https://github.com/Jon-Biz/simple-static-react-router",
   "scripts": {
@@ -18,6 +18,11 @@
   "author": "jon-biz",
   "license": "MIT",
   "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
     "babel-core": "^6.7.7",
     "babel-loader": "^6.2.4",
     "babel-polyfill": "^6.7.4",
@@ -25,9 +30,6 @@
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
-    "lodash": "^4.13.1",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1"
