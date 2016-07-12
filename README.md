@@ -16,6 +16,11 @@ That's it.
 
 Now, this isn't as simple as I'd like, but federated authentication and wiring up a realtime db isn't either. Additionally, Firebase's authentication system requires a static page and doesn't play nicely with single page apps. So, we redirect back and forth to  `auth.html` during login.
 
+## CRUD
+
+This fork includes a CRUD branch which adds a simple example of database CRUD methods.
+
+
 ##Set up
 
 Clone the repo locally and run npm install.
