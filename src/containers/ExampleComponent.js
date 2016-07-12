@@ -16,7 +16,7 @@ class HelloWorld extends Component {
         <p>Here is some data in a subcomponent:</p>
         <p>
           {
-            JSON.stringify(this.state.data, '/n')
+            JSON.stringify(this.state, '/n')
           }
         </p>
       </div>
