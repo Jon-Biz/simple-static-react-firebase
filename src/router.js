@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
-import Helloworld from './containers/helloworld.js'
-import HelloAgainworld from './containers/helloAgainWorld.js'
+import Helloworld from './containers/HelloWorld.js'
+import HelloAgainworld from './containers/HelloAgainWorld.js'
 
 class Router extends Component {
   render() {
