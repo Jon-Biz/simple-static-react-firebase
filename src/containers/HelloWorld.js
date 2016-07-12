@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import assign from 'lodash/assign'
 const firebase = window.firebase
 
 import ExampleComponent from './ExampleComponent'
