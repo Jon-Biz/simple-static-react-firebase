@@ -13,7 +13,7 @@ class HelloWorld extends Component{
         Don't forget to:
         <ul>
           <li>
-            Run 'npm run build' before uploading you public directory to your website.
+            Run 'npm run build' before uploading your public directory to your website.
           </li>
         </ul>
       </div>
