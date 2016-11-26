@@ -3,20 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <title>Sample FirebaseUI App</title>
-    <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
-    <!--
-      // Initialize Firebase
-      // TODO: Replace with your project's customized code snippet
-    <script>     
-      var config = {
-        apiKey: "apiKey",
-        authDomain: "projectId.firebaseapp.com",
-        databaseURL: "https://databaseName.firebaseio.com",
-        storageBucket: "bucket.appspot.com",
-      };
-      firebase.initializeApp(config);
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+    <script>
+     // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyA7OBPG_bJMNEw57oQ5jLezi0W8bJ9ePaM",
+      authDomain: "schoolms-150718.firebaseapp.com",
+      databaseURL: "https://schoolms-150718.firebaseio.com",
+      storageBucket: "schoolms-150718.appspot.com",
+      messagingSenderId: "62071118460"
+    };
+    firebase.initializeApp(config);
     </script>
-    -->
     <script src="https://www.gstatic.com/firebasejs/ui/live/0.4/firebase-ui-auth.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/live/0.4/firebase-ui-auth.css" />
     <script type="text/javascript">
@@ -26,10 +24,10 @@
         'signInOptions': [
           // Leave the lines as is for the providers you want to offer your users.
           firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-          firebase.auth.FacebookAuthProvider.PROVIDER_ID,
-          firebase.auth.TwitterAuthProvider.PROVIDER_ID,
-          firebase.auth.GithubAuthProvider.PROVIDER_ID,
-          firebase.auth.EmailAuthProvider.PROVIDER_ID
+          //firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+          //firebase.auth.TwitterAuthProvider.PROVIDER_ID,
+          //firebase.auth.GithubAuthProvider.PROVIDER_ID,
+          //firebase.auth.EmailAuthProvider.PROVIDER_ID
         ],
         // Terms of service url.
         'tosUrl': 'tos.html',
