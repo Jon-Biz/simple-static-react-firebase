@@ -2,10 +2,10 @@ const firebase = window.firebase
 
 // TODO: Replace with your project's customized code snippet
 const config = {
-  apiKey: "apiKey",
-  authDomain: "projectId.firebaseapp.com",
-  databaseURL: "https://databaseName.firebaseio.com",
-  storageBucket: "bucket.appspot.com",
+  apiKey: "AIzaSyA7OBPG_bJMNEw57oQ5jLezi0W8bJ9ePaM",
+  authDomain: "schoolms-150718.firebaseapp.com",
+  databaseURL: "https://schoolms-150718.firebaseio.com",
+  storageBucket: "schoolms-150718.appspot.com",
 };
 
 firebase.initializeApp(config);
