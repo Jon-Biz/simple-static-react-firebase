@@ -5,11 +5,9 @@
   "repository": "https://github.com/Jon-Biz/simple-static-react-router",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --progress --colors --port 4000 --content-base public"
+    "dev": "webpack-dev-server --progress --colors --port 4000 --content-base public",
     "webpack":"node ./node_modules/webpack/bin/webpack.js",
-    "webpack-dev-server":"node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "npm run webpack",
-    "dev": "npm run webpack-dev-server -s -- --progress --colors --port 4000 --content-base public"
+    "webpack-dev-server":"node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "babel": {
     "presets": [
