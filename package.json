@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --progress --colors --port 4000 --content-base public",
-    "webpack":"node ./node_modules/webpack/bin/webpack.js",
-    "webpack-dev-server":"node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "webpack": "node ./node_modules/webpack/bin/webpack.js",
+    "webpack-dev-server": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "babel": {
     "presets": [
@@ -35,8 +35,6 @@
     "style-loader": "^0.13.1",
     "webpack": ">=3.1.11",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14",
-    "reduce-css-calc": ">=1.2.5",
-     "debug": ">=2.6.9"
+    "webpack-dev-server": "^3.1.14"
   }
 }
