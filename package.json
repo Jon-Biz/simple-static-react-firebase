@@ -18,6 +18,8 @@
   "author": "jon-biz",
   "license": "MIT",
   "dependencies": {
+    "set-value": ">=2.0.1",
+     "mixin-deep": ">=1.3.2",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
