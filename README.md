@@ -131,3 +131,4 @@ _Note: As is, this uses a traditional 'top down' React style data management - i
 
 `/public/`
   * output directory. Put your assets in here next to the compiled js and css.
+  Thank you 
