@@ -1,4 +1,5 @@
 #Simple Static React Firebase
+#An amazing project
 
 This repo is minimal boilerplate for static react & es6 site with firebase authentication and cloud database, and a router. If you don't need all that, check out Simple Static React - https://github.com/jon-biz/simple-static-react
 
