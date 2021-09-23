@@ -1,6 +1,6 @@
-#Simple Static React
+#Simple Static React Firebase
 
-This repo is minimal boilerplate for static react & es6 site with a basic router. If you don't need a router, check out Simple Static React.
+This repo is minimal boilerplate for static react & es6 site with firebase authentication and cloud database, and a router. If you don't need all that, check out Simple Static React - https://github.com/jon-biz/simple-static-react
 
 The intention is to provide a basic boilerplate setup that doesnt inundate the new user with complexity, and stays out of the way of the more comfortable who just want an ES6/React environment with persistent user data, to bang out an idea.
 
@@ -21,12 +21,8 @@ Now, this isn't as simple as I'd like, but federated authentication and wiring u
 Clone the repo locally and run npm install.
 
 ```
-<<<<<<< HEAD
-git clone https://github.com/Jon-Biz/simple-static-react-router
-=======
 git clone https://github.com/Jon-Biz/simple-static-react-firebase
 cd simple-static-react-firebase
->>>>>>> e3b00f1... Update README.md
 npm i
 ```
 
@@ -135,4 +131,3 @@ _Note: As is, this uses a traditional 'top down' React style data management - i
 
 `/public/`
   * output directory. Put your assets in here next to the compiled js and css.
-```
