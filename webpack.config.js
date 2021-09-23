@@ -1,5 +1,5 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const devMode = process.env.NODE_ENV !== 'production'
+const devMode = process.env.NODE_ENV !== 'production' || false
 
 module.exports = {
   entry: [
@@ -38,5 +38,5 @@ module.exports = {
     })
   ]
 
-, devtool: "#source-map"
+, devtool: devMode ? "source-map" : false
 }
