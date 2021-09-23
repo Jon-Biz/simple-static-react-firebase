@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Simple Static React Router
 
 This repo is minimal boilerplate for static react & es6 site with a basic router. If you don't need a router, check out Simple Static React - https://github.com/jon-biz/simple-static-react
@@ -21,6 +22,20 @@ Clone the repo locally and run npm install.
 ```
 git clone https://github.com/Jon-Biz/simple-static-react-router
 cd simple-static-react-router
+=======
+#Simple Static React
+
+This repo is minimal boilerplate for static react & es6 site.
+
+It is intended for to get you up and developing with a minimum of fuss and configuration for your Firebase, Github, or plain old web server, or as the front-end for the Wordpress API.
+
+##Set up
+
+Clone the `master` branch and run npm i.
+
+```
+git clone https://github.com/Jon-Biz/simple-static-react --single-branch
+>>>>>>> b98fa99... create README and update welcome reminder
 npm i
 ```
 
@@ -44,6 +59,7 @@ Run the npm script 'build' to update `style.css` and `index.js` in the `public` 
 
 ```
 npm run build
+<<<<<<< HEAD
 ```
 
 The architectures is as follows:
@@ -71,3 +87,6 @@ The architectures is as follows:
 
 `/pubic/`
   * output directory. Put your assets in here next to the compiled js and css.
+=======
+```
+>>>>>>> b98fa99... create README and update welcome reminder

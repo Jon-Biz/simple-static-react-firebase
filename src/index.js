@@ -6,6 +6,7 @@ import data from './data.js'
 
 import Router from './router.js'
 
+<<<<<<< HEAD
 /*
   Call this function every time the data payload changes.
 
@@ -21,6 +22,21 @@ function onDataChange() {
   const content = document.getElementById('app')
   // Renders with the location and the data
   ReactDom.render(<Router {...data} location={location}/>, content)
+=======
+  render() {
+    return (
+      <div>
+        <h1>Hello World.</h1>
+        Don't forget to:
+        <ul>
+          <li>
+            Run 'npm run build' before uploading you public directory to your website.
+          </li>
+        </ul>
+      </div>
+    )
+  }
+>>>>>>> b98fa99... create README and update welcome reminder
 }
 
 window.addEventListener('hashchange', onDataChange, false);
