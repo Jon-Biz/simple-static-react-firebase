@@ -1,5 +1,5 @@
 const name = "Alice";
-const age = 30;
+const age = 25;
 const height = 5.8;
 
 // Using template literals (template strings) - ES6+
